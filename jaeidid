@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+          <head>
+                    <meta charset="utf-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <link rel="stylesheet" href="css/reset.css">
+                    <link rel="stylesheet" href="css/main.css">
+                    <title>왓플</title>
+          </head>
+          <body>
+                    <div id="wrap">
+                              <header id="header">
+                                        <h2 class="hidden">왓플</h2>
+                                        <img src="images/title.png" alt="" class="title">
+                                        <img src="images/leftShape.png" alt="배경좌측샵" class="leftShape">
+                                        <img src="images/rightShape.png" alt="배경우측샵" class="rightShape">
+                              </header><!--#header end-->
+                              <h3 id="notice">#로그인시 내 주소와 친구의 주소를 등록할 수 있어요~</h3>
+                              <div class="container">
+                                        <section id="loginSection" class="clear">
+                                                  <h3 class="hidden">loginSection</h3>
+                                                  <div class="formBox">
+                                                            <form class="" action="index.html" method="post" name="login">
+                                                                      <fieldset>
+                                                                                <legend class="hidden">login</legend>
+                                                                                <div class="form">
+                                                                                          <p><label for="id" class="hidden">id</label><input type="text" placeholder="ID" name="id" id="id"></p>
+                                                                                          <p><label for="pw" class="hidden">pw</label><input type="password" placeholder="PW" name="pw" id="pw"></p>
+                                                                                </div><!--.form end-->
+                                                                      </fieldset>
+                                                                      <p><label for="sendBtn" class="hidden">로그인</label><input type="submit" name="sendBtn" value="로그인" id="sendBtn"></p>
+                                                            </form>
+                                                            <ul id="loginsub">
+                                                                      <li><a href="#self">회원가입</a></li>
+                                                                      <li><a href="#self">ID/PW 찾기</a></li>
+                                                                      <!-- <span></span> -->
+                                                            </ul><!--#loginsub end-->
+                                                  </div><!--.formBox end-->
+                                        </section><!--#loginSection end-->
+                                        <section id="snsSection">
+                                                  <div class="snsFb">
+                                                            <form class="" action="index.html" method="post">
+                                                                      <fieldset>
+                                                                                <legend class="hidden">snsLogin</legend>
+                                                                                <div class="snsF">
+                                                                                          <p><label for="kakao" class="hidden">kakao</label><button class="kakao">카카오로 로그인</button></p>
+                                                                                          <p><label for="facebook" class="hidden">facebook</label><button class="facebook">facebook으로 로그인</button></p>
+                                                                                </div><!--.snsF end-->
+                                                                      </fieldset>
+                                                            </form>
+                                                  </div><!--.snsFb end-->
+                                                  <p class="loginbt"><a href="#self">로그인 건너뛰기</a></p>
+                                        </section><!--#snsSection end-->
+                              </div><!--.container end-->
+                    </div><!--#wrap end-->
+          </body>
+</html>
